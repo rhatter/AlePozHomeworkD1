@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+    <link rel="icon" href="./favicon-32.png" sizes="32x32">
+    <title>Mi presento</title>
+
+    <style>
+        *{
+            font-family: Open Sans;
+        }
+        .imm {
+            width: 10VW;
+            mix-blend-mode: darken;
+        }
+        .liste{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+        }
+        section {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+        section.first{
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+        body>div>p,body>div>h1,body>div>h2{
+            max-width: 600px;
+            width: 100%;
+        }
+        body{
+            background-color: #e6f0f5;
+            margin: 0;
+        }
+        .liste h2,.liste ul{
+            margin: 20px 0px;
+            width: 40%;
+        }
+        .liste {
+            margin: 50px 0px;
+            max-width: 650px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+        body>div{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin: 0px 20px;
+        }
+    </style>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="base">
+    <h1>Alessandro Pozzato</h1>
+    <h2>alessandropoz@hotmail.com</h2>
+    <p>Ciao,<br>
+    Mi chiamo Alessandro e sto scrivendo la mia bio su "Visual Studio Code".<br>
+    Non saprei di preciso che cosa scrivere, sono una persona socievole, mi piace la fotografia, l'arte e vorrei lavorare nel modo dei videogiochi.
+    </p>
+    <p>Nel tempo libero gioco ai giochi da tavolo, faccio fotografie a qualche ristoratore della mia città e visito centri di interesse storico.</p>
+    </div>
+    <main>
+    <section class="first">
+    <a href="#">
+        <img class="imm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="logo di github">
+    </a>
+    <br>
+    <a href="https://github.com/rhatter/">Gihhub</a>
+    </section>
+    <section class="liste">
+        <h2>Le mie competenze</h2>
+        <ul>
+            <li>SQL</li>
+            <li>Visual Fox Pro</li>
+            <li>Google Script</li>
+        </ul>
+        <h2>Competenze da acquisire</h2>
+        <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+</section>
+</main>
+</body>
+</html>
